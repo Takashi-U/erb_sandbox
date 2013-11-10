@@ -1,0 +1,11 @@
+.ruby-version
+.ruby-gemset
+
+*.log
+*.diff
+*~
+
+tmp/
+output/
+vendor/bundle
+.idea/
