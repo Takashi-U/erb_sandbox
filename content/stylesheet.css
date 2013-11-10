@@ -1,3 +1,16 @@
+/*
+CSSを書いてみよう！
+
+CSSは見た目を変更するタグを指定し、中括弧に見た目の内容を記載します。（場合によってはタグに設定されたidやclassを指定します。）
+
+試しに、h1タグの見た目を変更してみましょう。
+
+h1{ color:red; }
+
+（ここからの詳細はコーチに聞いてみてください。）
+
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -26,19 +39,11 @@ a:hover {
   position: absolute;
 
   top: 40px;
-  left: 280px;
+  left: 380px;
 
-  width: 500px;
+  width: 600px;
 }
 
-#main h1 {
-  font-size: 40px;
-  font-weight: normal;
-
-  line-height: 40px;
-
-  letter-spacing: -1px;
-}
 
 #main p {
   margin: 20px 0;
@@ -67,13 +72,11 @@ a:hover {
 
   top: 40px;
   left: 20px;
-  width: 200px;
+  width: 300px;
 
   padding: 20px 20px 0 0;
 
   border-right: 1px solid #ccc;
-
-  text-align: right;
 }
 
 #sidebar h2 {

@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>A Brand New nanoc Site - <%= @item[:title] %></title>
+    <title>Practice - <%= @item[:title] %></title>
     <link rel="stylesheet" href="/style.css">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
@@ -13,16 +13,12 @@
       <%= yield %>
     </div>
     <div id="sidebar">
-      <h2>Documentation</h2>
+      <p>編集したページを確認してみよう</p>
       <ul>
-        <li><a href="http://nanoc.ws/docs/">Documentation</a></li>
-        <li><a href="http://nanoc.ws/docs/tutorial/">Getting Started</a></li>
-      </ul>
-      <h2>Community</h2>
-      <ul>
-        <li><a href="http://groups.google.com/group/nanoc/">Discussion Group</a></li>
-        <li><a href="irc://chat.freenode.net/#nanoc">IRC Channel</a></li>
-        <li><a href="http://github.com/nanoc/nanoc/wiki/">Wiki</a></li>
+        <li><%= link_to "TOP(index)", "/" %></li>
+        <li><%= link_to "HTMLを書いてみよう", "/html/" %></li>
+        <li><%= link_to "CSSを書いてみよう", "/css/" %></li>
+        <li><%= link_to "ERBを書いてみよう", "/erb/" %></li>
       </ul>
     </div>
   </body>
