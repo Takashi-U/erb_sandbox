@@ -7,7 +7,7 @@
     bundle exec guard
 
 guardを利用して、保存される度に自動コンパイルを行います。
-もう一つターミナルを立ち上げてerb_sandboxに移動し、次のコマンドを実行してください。
+guardを実行しているターミナルはそのままに、もう一つターミナルを立ち上げてerb_sandboxに移動し、次のコマンドを実行してください。
 
     bundle exec nanoc view
 
