@@ -1,4 +1,5 @@
-* 使用方法
+使用方法
+========
 
     git clone https://github.com/Takashi-U/erb_sandbox.git
     cd erb_sandbox
